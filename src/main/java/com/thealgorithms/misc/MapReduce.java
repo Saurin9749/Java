@@ -37,4 +37,14 @@ public final class MapReduce {
         // Reduce phase: format the result
         return wordCounts.entrySet().stream().map(entry -> entry.getKey() + ": " + entry.getValue()).collect(Collectors.joining(","));
     }
+
+    public void MakeSound(){
+        System.out.println("Make sound");
+    }
+
+    public void MakeSoundagain(){
+        System.out.println("Make sound again");
+    }
+
+
 }
